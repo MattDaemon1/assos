@@ -1,0 +1,85 @@
+
+/* Styles pour les écrans mobiles */
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Styles pour les écrans tablettes et plus grands */
+@media (min-width: 768px) {
+  body {
+      font-size: 18px;
+      padding: 20px;
+  }
+}
+
+/* Styles pour les écrans d'ordinateur et plus grands */
+@media (min-width: 992px) {
+  body {
+      font-size: 20px;
+      padding: 30px;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  font-size: 1.1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #000000;
+}
+
+.bg-body-tertiary {
+  background-color: #007bff; /* Vous pouvez changer cette couleur en fonction de vos besoins */
+}
+
+.hero {
+  padding: 100px 0;
+  background: url('./media/paysage3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  border-top: 1px solid #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ccc;
+}

@@ -6,30 +6,96 @@
     <meta name="description" content="Description de l'association">
     <meta name="keywords" content="mots clés, de, l'association">
     <meta name="robots" content="index, follow">
-    <title>Association XYZ</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Action Climatique Unie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="logo.png" alt="Logo de l'association" width="30" height="30">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="events.html">Événements</a>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="./media/logo.png" alt="Logo ACU" height="30" class="d-inline-block align-top">
+                ACU
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Evènements</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
+    <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card mb-4">
+                        <img src="./media/climat.jpeg" class="card-img-top" alt="Marche pour le Climat">
+                        <div class="card-body">
+                            <h5 class="card-title">Marche pour le Climat</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">20 septembre 2023, Paris</h6>
+                            <p class="card-text">Rejoignez-nous pour la Marche pour le Climat. Ensemble, nous pouvons faire une différence !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-4">
+                        <img src="./media/plage.jpeg" class="card-img-top" alt="Journée de Nettoyage de la Plage">
+                        <div class="card-body">
+                            <h5 class="card-title">Journée de Nettoyage de la Plage</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">15 octobre 2023, Nice</h6>
+                            <p class="card-text">Venez nous aider à nettoyer la plage et à protéger notre environnement marin.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-4">
+                        <img src="./media/changement.jpeg" class="card-img-top" alt="Conférence sur le Changement Climatique">
+                        <div class="card-body">
+                            <h5 class="card-title">Conférence sur le Changement Climatique</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">10 novembre 2023, Lyon</h6>
+                            <p class="card-text">Rejoignez-nous pour une conférence sur le changement climatique et apprenez ce que vous pouvez faire pour aider.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-4">
+                        <img src="./media/jardin.jpeg" class="card-img-top" alt="Atelier de Jardinage Durable">
+                        <div class="card-body">
+                            <h5 class="card-title">Atelier de Jardinage Durable</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">5 décembre 2023, Toulouse</h6>
+                            <p class="card-text">Apprenez à jardiner de manière durable et respectueuse de l'environnement lors de notre atelier.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Action Climatique Unie</h4>
+                    <p>123 Rue de l'Exemple, 75000 Paris, France</p>
+                    <p>Email: info@acu.org</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Suivez-nous</h4>
+                    <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+    </html>

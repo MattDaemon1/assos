@@ -6,48 +6,83 @@
     <meta name="description" content="Description de l'association">
     <meta name="keywords" content="mots clés, de, l'association">
     <meta name="robots" content="index, follow">
-    <title>Association XYZ</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Action Climatique Unie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="logo.png" alt="Logo de l'association" width="30" height="30">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="events.html">Événements</a>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="./media/logo.png" alt="Logo ACU" height="30" class="d-inline-block align-top">
+                ACU
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Evènements</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
+    
 
     <main>
-        <section>
-            <!-- introduction à l'association -->
+        <section class="hero text-white text-center d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="display-4">Action Climatique Unie</h1>
+                        <p class="lead">Unissons nos efforts pour un avenir durable</p>
+                        <a href="events.html" class="btn btn-outline-light btn-lg">Découvrez nos événements</a>
+                    </div>
+                </div>
+            </div>
         </section>
-
-        <section>
-            <!-- informations détaillées sur l'association -->
+        
+        
+            
+        <section class="about py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>À propos de nous</h2>
+                        <p>Action Climatique Unie est une organisation à but non lucratif dédiée à la lutte contre le changement climatique. Nous croyons en l'importance d'unir nos efforts pour protéger notre planète et assurer un avenir durable pour les générations futures.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Nos actions</h2>
+                        <p>Fondée en 2023, l'Action Climatique Unie travaille avec des individus, des communautés et des entreprises à travers le pays pour promouvoir des pratiques respectueuses de l'environnement et pour influencer les politiques climatiques. Nos initiatives comprennent des programmes d'éducation environnementale, des projets de reforestation, et des campagnes de sensibilisation sur les énergies renouvelables.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
-    <footer>
-        <!-- informations de contact et des liens vers les réseaux sociaux -->
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Action Climatique Unie</h4>
+                    <p>123 Rue de l'Exemple, 75000 Paris, France</p>
+                    <p>Email: info@acu.org</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Suivez-nous</h4>
+                    <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
     </footer>
-
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
